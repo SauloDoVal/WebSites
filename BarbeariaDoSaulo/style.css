@@ -1,6 +1,6 @@
 header {
   background-color:#bbbbbb;
-  padding: 20px 0 s;
+  padding: 20px 0;
 }
 
 .caixa{
@@ -87,7 +87,8 @@ nav a:hover{
 footer {
   text-align: center;
   background: url("imagens/bg.jpg");
-  padding:  40px 0;
+  padding:  20px;
+  margin-top: 40px;
 }
 
 .copyright{
@@ -124,7 +125,7 @@ form label, form legend {
 }
 
 .enviar{
-  width: 40%;
+  width: 50%;
   padding: 15px 0;
   background: orange;
   color: white;
@@ -139,4 +140,59 @@ form label, form legend {
 .enviar:hover{
   background:darkorange;
   transform: scale(1.2);
+}
+
+table{
+  margin: 10px;
+  display: inline;
+  
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+/* CSS da Página Inicial (index.html) */
+
+.banner {
+  width: 100%;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+
+}
+
+.principal p{
+  margin:  0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em { 
+  font-style: italic;
+}
+
+.utensilios{
+  width: 130px ;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+
+.imagembeneficios{
+  width: 60%;
 }
