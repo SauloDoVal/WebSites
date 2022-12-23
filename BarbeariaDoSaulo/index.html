@@ -6,6 +6,9 @@
     <meta name="viewport" content="width= , initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Montserrat&display=swap" rel="stylesheet">
     <link
       rel="shortcut icon"
       href="imagens/logoSauloBlack.png"
@@ -14,10 +17,14 @@
     <title>Barbearia do Saulo</title>
   </head>
 
+
   <body>
     <header>
       <div class="caixa">
-        <h1><img src="imagens/SauloHorizontalBlack.png" alt="Logo da Saulo's Barbershop"/></h1>
+        <h1>
+          <img class="imghead" src="imagens/SauloHorizontalBlack.png" 
+          alt="Logo da Saulo's Barbershop"/>
+        </h1>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -28,7 +35,7 @@
       </div>
     </header>
 
-    <img class="banner" src="imagens/Old_barbershop.jpg">
+    <img class="banner" src="imagens/banner.jpg">
 
     <main>
       <section class="principal">
@@ -37,9 +44,7 @@
         <img class="utensilios" src="imagens/utensilios.jpg" alt="utensilios de Barbearia">  
 
         <p>
-        Localizada no coração da cidades Lisboa e Porto a
-        <strong>Barbearia do Saulo</strong> traz para o mercado o que há de melhor
-        para o seu cabelo e barba. Fundada em 2022, a Barbearia do Saulo já é
+        Localizada no coração da cidade de <strong>Lisboa</strong> a <strong>Barbearia do Saulo</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2022, a Barbearia do Saulo já é
         destaque nas cidades onde atua e conquista novos clientes a cada dia.
        </p>
         <p id="missao";><em>
@@ -55,20 +60,39 @@
       </p>
     </section>
 
+    <section class="mapa">
+      <h3 class="titulo-principal">Nossa Localização</h3>
+      <p>Nosso estabelecimento está no Bairro Alto, coração da cidade de Lisboa.</p>
+      <div class="mapa-conteudo">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.113032577936!2d-9.144934200000005!3d38.71521380000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933802df8fdf7%3A0x4184db7cf73619c4!2sConvento%20de%20S%C3%A3o%20Pedro%20de%20Alc%C3%A2ntara!5e0!3m2!1spt-PT!2spt!4v1671794912067!5m2!1spt-PT!2spt" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+
+
     <section class="beneficios">
       <h3 class="titulo-principal">Benefícios</h3>
-      <ul class="listaCorpo">
-      <li class="itens">Atendimento ao Cliente</li> 
-      <li class="itens">Espaço diferenciado</li> 
-      <li class="itens">Localização</li> 
-      <li class="itens">Profissionais Qualificados</li> 
-      </ul>
-      <img src="imagens/beneficios.jpg" class="imagembeneficios">
+      
+      <div class="conteudo-beneficios">
+          <ul class="lista-beneficios">
+                <li class="itens">Atendimento ao Cliente</li> 
+                <li class="itens">Espaço diferenciado</li> 
+                <li class="itens">Localização</li> 
+                <li class="itens">Profissionais Qualificados</li> 
+                <li class="itens">Pontualidade</li> 
+                <li class="itens">Limpeza</li> 
+           </ul><img src="imagens/beneficios.jpg" class="imagem-beneficios">
+      </div>
+
+      
+
+      <div class="video"><iframe width="100%" height="315" src="https://www.youtube.com/embed/8pWtdanVz3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
     </section>
 
   </main>
     <footer>
-      <img src="imagens/SauloBigWhite.png" alt="Logo branco da Saulo's Barbershop" />
+      <img class= "imgfooter" src="imagens/SauloBigWhite.png" alt="Logo branco da Saulo's Barbershop" />
       <p class="copyright">
         &copy; Copyright: <br />
         Made by Saulo - 2022
