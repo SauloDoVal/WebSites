@@ -63,7 +63,7 @@
   padding-left: 30px;
   margin: 1em auto 1.5em auto;
   line-height: 2;
-  list-style: disc;
+  list-style: none; /* Trocar de disc pra none para o leitor de tela não ser bolilha, a acessibilidade tb chega ao CSS*/
   color: #666;
   width: 240px;
 }

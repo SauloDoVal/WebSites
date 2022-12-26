@@ -27,7 +27,11 @@
 }
 
 .contatoCampo-checkbox {
-  display: none;
+   /* display: none;  O display none esconde para quem ta vendo e tb para quem está ouvindo, atrapalhado a acessibilidade, também não vai dar certo com o visibility: hidden... vai ter o mesmo problema, para resolver isso posso botar ele numa posição muito distante left: -9999px position: absolut, ou botar a opacity dele em 0 */
+  opacity: 0;
+  position: absolute;
+  left: -9999px
+  
 }
 
 .contatoCampo-icone {
